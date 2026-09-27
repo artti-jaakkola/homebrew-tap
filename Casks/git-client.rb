@@ -12,6 +12,8 @@ cask "git-client" do
     strategy :github_latest
   end
 
+  depends_on :macos
+
   app "Git Client.app"
 
   zap trash: [
