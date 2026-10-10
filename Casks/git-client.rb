@@ -1,6 +1,6 @@
 cask "git-client" do
-  version "2.4.0"
-  sha256 "c77a4a3b6ce1d44909c90579007fb56093d6042116e7671baa61dca7c9aaabd2"
+  version "3.0.0"
+  sha256 "7e30fcd82355671c818038112de2f351739d7e378f4e8018d6be3cab69c3d52c"
 
   url "https://github.com/artti-jaakkola/git-client-releases/releases/download/v#{version}/Git.Client_#{version}_universal.dmg"
   name "Git Client"
